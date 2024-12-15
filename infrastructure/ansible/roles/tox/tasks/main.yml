@@ -1,0 +1,4 @@
+- name: Install tox automation project
+  ansible.builtin.apt:
+    name: tox
+  become: true

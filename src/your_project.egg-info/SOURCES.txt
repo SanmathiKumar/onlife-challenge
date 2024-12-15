@@ -1,0 +1,14 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/coding_exercise/__init__.py
+src/coding_exercise/application/splitter.py
+src/coding_exercise/domain/model/cable.py
+src/your_project.egg-info/PKG-INFO
+src/your_project.egg-info/SOURCES.txt
+src/your_project.egg-info/dependency_links.txt
+src/your_project.egg-info/not-zip-safe
+src/your_project.egg-info/requires.txt
+src/your_project.egg-info/top_level.txt

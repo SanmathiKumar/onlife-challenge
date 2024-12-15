@@ -1,0 +1,13 @@
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+assertpy
+black
+dlint
+flake8
+flake8-bugbear
+pytest
+pytest-cov
+setuptools
