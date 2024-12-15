@@ -76,6 +76,14 @@ def test_remainder_edge_case():
     assert_that(result[4].length).is_equal_to(1)
 
 
+def test_remainder_greater_than_split_length():
+    splitter = Splitter()
+    cable = Cable(7, "coconut")  # A 7-length cable
+    result = splitter.split(cable, 2)  # Splitting into 3 parts (split length = 2, remainder = 1)
+    assert_that(result).is_length(4)  # 3 splits of 2, and 1 remainder of 1
+    assert_that(result[-1].length).is_equal_to(1)  # Check that the remainder is appended
+
+
 # Test splitting a cable with the minimum valid length
 def test_validation_constraints_for_splitting():
     splitter = Splitter()
