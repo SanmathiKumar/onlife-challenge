@@ -67,7 +67,6 @@ class Splitter:
             remaining -= init_length
 
         if remaining > 0:
-            print("69")
             result.append(Cable(remaining, f""))
 
         pad_len = int(math.log10(cable_count)) + 1
